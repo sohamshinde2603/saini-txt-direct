@@ -5,12 +5,12 @@ from os import environ
 
 API_ID = int(environ.get("API_ID", "6024888"))
 API_HASH = environ.get("API_HASH", "c78489a1b52a6dac192f2c1b6eb30435")
-BOT_TOKEN = environ.get("BOT_TOKEN", "")
+BOT_TOKEN = environ.get("BOT_TOKEN", "7842404203:AAG3SkSFSBMBTeg8S5LEjYdb-ZE7kDa4e6U")
 
 OWNER = int(environ.get("OWNER", "1786342431"))
-CREDIT = environ.get("CREDIT", "𝙎𝘼𝙄𝙉𝙄 𝘽𝙊𝙏𝙎")
+CREDIT = environ.get("CREDIT", "SS BOTS")
 
-TOTAL_USER = os.environ.get('TOTAL_USERS', '5680454765').split(',')
+TOTAL_USER = os.environ.get('TOTAL_USERS', '1786342431').split(',')
 TOTAL_USERS = [int(user_id) for user_id in TOTAL_USER]
 
 AUTH_USER = os.environ.get('AUTH_USERS', '1786342431').split(',')
